@@ -1,0 +1,134 @@
+baseURL: https://beijing-kug.github.io/
+languageCode: zh-cn
+title: 北京 KUG
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: true
+buildExpired: true
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: 北京 KUG
+  description: "北京 Kotlin 用户组"
+  keywords: [Kotlin, Kotlin User Group, BeiJing Kotlin User Group, 北京 Kotlin 用户组, KUG, BeiJing KUG, 北京 KUG]
+  author: beijing-kug
+  # author: ["Me", "You"] # multiple authors
+  # images: ["<link or path of image for opengraph, twitter-cards>"]
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "kug-logo.png"
+
+  label:
+    text: "北京 KUG"
+
+  profileMode:
+    enabled: true
+    title: "BeiJing Kotlin User Group" # optional default will be site title
+    subtitle: Hi, 这里是北京 Kotlin 用户组，欢迎所有热爱 Kotlin 的开发者加入用户组
+    content:
+      - 在这里可以和其它成员一起学习、讨论技术、解决问题（有人懂的话） 📚
+      - 我们还会不定期举行研讨会，进行与 Kotlin 相关的主题分享与讨论
+      - 用户组 QQ 交流群/频道
+
+    imageUrl: "kug-logo.png" # optional
+    imageTitle: "bj_kug_logo" # optional
+    imageWidth: 360 # custom size
+    imageHeight: 360 # custom size
+
+    # TODO 竞赛、文章
+    # 后端转Android
+    buttons:
+      - name: 分享会
+        url: /events/
+      - name: 寻找更多的用户组
+        url: https://kotlinlang.org/community/user-groups/
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/beijing-kug"
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false # 关闭评论，后续换其他
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: events
+      name: 分享会
+      url: /events/
+      weight: 1
+    - identifier: official
+      name: Kotlin 官方
+      url: https://kotlinlang.org/
+      weight: 2
+    - identifier: kotlin docs
+      name: 中文文档
+      url: https://www.kotlincn.net/
+    - indetifier: community
+      name: 交流社区
+      url: https://discuss.kotliner.cn/
+
+publishDir: ../public
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai

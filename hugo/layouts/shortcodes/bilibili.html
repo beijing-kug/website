@@ -1,0 +1,24 @@
+<style type="text/css">
+  .aspect-ratio {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 75%;
+  }
+
+  .aspect-ratio iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+  }
+</style>
+
+{{ $videoID := index .Params 0 }}
+{{ $pageNum := index .Params 1 | default 1}}
+{{ if (findRE "^[bB][vV][0-9a-zA-Z]+$" $videoID) }}
+<div class="aspect-ratio"><iframe id="biliplayer" src="//player.bilibili.com/player.html?bvid={{ $videoID }}&page={{ $pageNum }}&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" loading="lazy" > </iframe></div>
+{{ else }}
+<div class="aspect-ratio"><iframe id="biliplayer" src="//player.bilibili.com/player.html?aid={{ $videoID }}&page={{ $pageNum }}&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" loading="lazy" > </iframe></div>
+{{ end }}
