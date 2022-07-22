@@ -34,7 +34,7 @@ params:
   profileMode:
     enabled: true
     title: "BeiJing Kotlin User Group" # optional default will be site title
-    subtitle: Hi, 这里是北京 Kotlin 用户组，欢迎所有热爱 Kotlin 的开发者加入用户组
+    subtitle: Hi, 这里是北京 Kotlin 用户组，欢迎所有对 Kotlin 感兴趣的开发者加入用户组
     content:
       - 在这里可以和其它成员一起讨论 Kotlin 语言的各项技术与最新特性
       - 我们还会不定期举行分享会，进行与 Kotlin 相关的主题分享与讨论
