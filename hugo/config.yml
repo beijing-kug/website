@@ -50,8 +50,8 @@ params:
     buttons:
       - name: 分享会
         url: /events/
-      - name: Kotlin进阶
-        url: https://www.bennyhuo.com/book/
+      - name: 寻找更多用户组
+        url: https://kotlinlang.org/community/user-groups/
 
   socialIcons:
     - name: github
@@ -110,9 +110,6 @@ menu:
     - identifier: kotlin docs
       name: 中文文档
       url: https://www.kotlincn.net/
-    - indetifier: community
-      name: Kotlin 进阶
-      url: https://www.bennyhuo.com/book/
 
 publishDir: ../public
 
