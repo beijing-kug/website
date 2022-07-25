@@ -50,8 +50,8 @@ params:
     buttons:
       - name: 分享会
         url: /events/
-      - name: 寻找更多用户组
-        url: https://kotlinlang.org/community/user-groups/
+      - name: Kotlin 进阶
+        url: /advanced
 
   socialIcons:
     - name: github
@@ -110,6 +110,11 @@ menu:
     - identifier: kotlin docs
       name: 中文文档
       url: https://www.kotlincn.net/
+      weight: 3
+    - identifier: advanced
+      name: Kotlin 进阶
+      url: /advanced
+      weight: 4
 
 publishDir: ../public
 
