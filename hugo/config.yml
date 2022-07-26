@@ -16,7 +16,7 @@ params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: 北京 KUG
   description: "北京 Kotlin 用户组"
-  keywords: [Kotlin, Kotlin User Group, BeiJing Kotlin User Group, 北京 Kotlin 用户组, KUG, BeiJing KUG, 北京 KUG]
+  keywords: [Kotlin, Kotlin User Group, Beijing Kotlin User Group, 北京 Kotlin 用户组, KUG, Beijing KUG, 北京 KUG]
   author: beijing-kug
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
@@ -33,7 +33,7 @@ params:
 
   profileMode:
     enabled: true
-    title: "BeiJing Kotlin User Group" # optional default will be site title
+    title: "Beijing Kotlin User Group" # optional default will be site title
     subtitle: Hi, 这里是北京 Kotlin 用户组，欢迎所有对 Kotlin 感兴趣的开发者加入用户组
     content:
       - 在这里可以和其它成员一起讨论 Kotlin 语言的各项技术与最新特性
