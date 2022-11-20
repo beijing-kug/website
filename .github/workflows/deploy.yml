@@ -40,7 +40,7 @@ jobs:
       - name: Deploy Into Publish Repo
         uses: s0/git-publish-subdir-action@develop
         env:
-        REPO: git@github.com:beijing-kug/beijing-kug.github.io.git
-        BRANCH: main
-        FOLDER: public
-        SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          REPO: git@github.com:beijing-kug/beijing-kug.github.io.git
+          BRANCH: main
+          FOLDER: public
+          SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
