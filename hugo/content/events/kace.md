@@ -10,6 +10,6 @@ kotlin-android-extensions 框架已经过时了很久，并且将在 Kotlin 1.8 
 
 为此，看云控股技术团队开源了 Kace 框架, 帮助开发者实现 kotlin-android-extensions 插件的无缝迁移。
 
-开源地址：https://github.com/kanyun-inc/Kace
+开源地址：[https://github.com/kanyun-inc/Kace](https://github.com/kanyun-inc/Kace)
 
 {{< bilibili BV1r841187RV >}}
