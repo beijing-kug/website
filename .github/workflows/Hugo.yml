@@ -42,7 +42,6 @@ jobs:
         env:
           REPO: git@github.com:beijing-kug/beijing-kug.github.io.git
           SQUASH_HISTORY: "false"
-          CLEAR_GLOBS_FILE: ".clear-target-files"
           BRANCH:  main
           FOLDER: public
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
