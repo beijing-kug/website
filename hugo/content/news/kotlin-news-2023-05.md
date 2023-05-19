@@ -1,5 +1,5 @@
 ---
-title: Kotlin 技术月报 | 2023.05
+title: Kotlin 技术月报 | 2023 年 5 月
 date: 2023-05-30
 tags: [技术月报]
 ---
