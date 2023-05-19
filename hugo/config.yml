@@ -50,8 +50,8 @@ params:
     buttons:
       - name: 分享会
         url: /events/
-      - name: Kotlin 进阶
-        url: /advanced
+      - name: 技术月报
+        url: /news/
 
   socialIcons:
     - name: github
@@ -112,8 +112,8 @@ menu:
       url: https://www.kotlincn.net/
       weight: 3
     - identifier: advanced
-      name: Kotlin 进阶
-      url: /advanced
+      name: Kotlin News
+      url: /news/
       weight: 4
 
 publishDir: ../public
