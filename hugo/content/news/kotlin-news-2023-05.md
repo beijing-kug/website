@@ -19,4 +19,25 @@ KotlinConf 2023会议录像现已发布！
 ## 精选博客
 
 ## 社区活动
+### KotlinConf Global
+KotlinConf Global 是 KotlinConf 在全球各个城市的拓展延伸活动，促进各地 Kotlin 开发人员之间的联系，最近全国各个城市也举办了相关活动
 
+- [上海线下活动｜2023 KotlinConf Global Shanghai Meetup 期待与您见面](https://juejin.cn/post/7194755687531380773)
+- [活动回顾 | 2023 KotlinConf Global 北京分享会](https://beijing-kug.github.io/events/kotlinconf-callback/)
+- [深圳 KotlinConf Global 2023](https://szkug.github.io/website-hugo/events/event_20230131/)
+- [西安线下活动｜2023 KotlinConf Global Xi’an Meetup 期待与您见面](https://kotlinxa.com/2023-kotlinconf-global-xian-meetup)
+
+### 新成立的 Kotlin User Group
+最近全国各个城市也新创建了一些 KUG，欢迎各个城市的 Kotlin 爱好者加入
+
+- [贵州 Kotlin 用户组](https://juejin.cn/user/2946346893987704/posts)
+- [郑州 Kotlin 用户组](https://zhengzhou-kug.github.io/)
+
+### Kotlin 炉边漫谈第 8 期
+[《Kotlin 炉边漫谈》第 8 期：阿里和美团的 Kotlin Multiplatform 应用案例 | 播客](https://mp.weixin.qq.com/s/G9k-S6YbiGKlsAw1_NGJ3A)
+
+由来自阿里巴巴的曹立成和美团的刘银龙两位嘉宾，跟大家一起分享 Kotlin Multiplatform 的落地实践经验
+
+横向对比了 Flutter,  Kotlin Multiplatform, React Native, 以及国内大厂自研跨平台框架等的优缺点及应用场景，同时分享了在做技术选型时的经验分享，非常精彩，不容错过
+
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/may/p8.png)
