@@ -11,10 +11,47 @@ tags: [技术月报]
 月报的主要内容包括：整理展示最近一个月的最新技术动态，精选博客文章，社区活动等
 
 ## 最新动态
-### [KotlinConf 回放来了](https://blog.jetbrains.com/kotlin/2023/05/kotlinconf-2023-recordings/)
-KotlinConf 2023会议录像现已发布！
+### KotlinConf 2023 回放来了
+KotlinConf 2023 的所有回放已出，所有回放列表可见：[https://kotlinconf.com/talks/](https://kotlinconf.com/talks/)
 
-无论您错过了该活动还是只想重新观看您最喜欢的演讲，您现在都可以在KotlinConf网站上轻松找到所有演讲，以及会议照片。点击相应的讲话，然后点击“下载幻灯片”即可访问一些会议的幻灯片。您还可以在Kotlin YouTube频道上找到所有的记录。
+本次大会除了开场与闭幕讨论，共有 69 场分享，可以说是一场盛宴了，我整理统计了一下各个分享的主题
+
+| 主题               | 分享数 |
+| ---------------- | --- |
+| Kotlin 跨平台       | 21  |
+| Compose 相关分享     | 10  |
+| Kotlin 在服务端的应用   | 9   |
+| Kotlin 协程相关分享    | 8   |
+| Kotlin 编译器与编译器插件 | 8   |
+| Kotlin 与测试       | 4   |
+| Kotlin 语言特性相关分享  | 4   |
+| Kotlin 与函数式编程    | 3   |
+| Kotlin 用于数据科学    | 2   |
+| Kotlin 与游戏    | 2   |
+| Kotlin 与 Gradle    | 1   |
+| Kotlin 与 AI   | 1   |
+
+从各个主题的分享数量也可以看出 Kotlin 在各个方向的火热程度
+
+- Kotlin 跨平台相关分享是最多的，可以看出这也是 Kotlin 团队下一步要重点发展的方向
+- 越来越多的人开始使用 Compose ，据统计，在 top 1000 的 Android 应用中，有 21% 的应用使用了 Jetpack Compose
+- 虽然据统计大约 66% 的 Kotlin 开发者是 Android 开发者，但服务端开发者使用 Kotlin 的比例也在逐渐上升，这应该也是 Kotlin 团队想要发力的方向
+- 这次大会 Kotlin 编译器与编译器插件相关的分享也比较多，应该是因为 K2 编译器的逐渐成熟，即将发布 beta 版本
+- 国外很多团队重视代码测试，而不仅仅是需求开发，因此 Kotlin 在测试方面的分享也较多
+
+### Google I/O : Android 版 Kotlin 的新动态
+[What's new in Kotlin for Android](https://io.google/2023/program/a3250bf1-dab1-4752-82bb-4412afb94d66/intl/zh/)：在本次 Google I/O 大会上，介绍了今年将为 Android 开发者发布的 Kotlin 更新，主要包括
+
+- 即将推出的 K2 编译器
+- KTS 成为 Gradle 构建默认设置
+- Kotlin 符号处理 (Kotlin Symbol Processing) 的改进
+- Kotlin Multiplatform 的一些新动态
+
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/may/p9.jpg)
+
+其中最受大家关注的可能就是 K2 编译器了，它可以极大的提升编译速度，优化开发体验
+
+在 Kotlin 1.8.20 中，已经可以通过设置`languageVersion = "2.0"`来开启 K2 了，而 K2 编译器也将在 Kotlin 1.9.x 中 Beta，并最终在 Kotlin 2.0 版本中稳定
 
 ## 精选博客
 
