@@ -45,11 +45,11 @@ KotlinConf 2023 的所有回放已出，所有回放列表可见：[https://kotl
 - 即将推出的 K2 编译器
 - KTS 成为 Gradle 构建默认设置
 - Kotlin 符号处理 (Kotlin Symbol Processing) 的改进
-- Kotlin Multiplatform 的一些新动态
+- Kotlin 跨平台的一些新动态
 
 ![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/may/p9.jpg)
 
-其中最受大家关注的可能就是 K2 编译器了，它可以极大的提升编译速度，优化开发体验
+这其中我最关注的是 K2 编译器的新动态，K2 编译器最显著的改进是编译速度的大幅提升，同时稳定的编译器插件 API 也可以降低 Kotlin 编译器插件的开发成本
 
 在 Kotlin 1.8.20 中，已经可以通过设置`languageVersion = "2.0"`来开启 K2 了，而 K2 编译器也将在 Kotlin 1.9.x 中 Beta，并最终在 Kotlin 2.0 版本中稳定
 
