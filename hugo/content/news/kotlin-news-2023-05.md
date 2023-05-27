@@ -53,6 +53,22 @@ KotlinConf 2023 的所有回放已出，所有回放列表可见：[https://kotl
 
 在 Kotlin 1.8.20 中，已经可以通过设置`languageVersion = "2.0"`来开启 K2 了，而 K2 编译器也将在 Kotlin 1.9.x 中 Beta，并最终在 Kotlin 2.0 版本中稳定
 
+### Kotlin 1.9.0-Beta 发布
+[What's new in Kotlin 1.9.0-Beta](https://kotlinlang.org/docs/whatsnew-eap.html)：Kotlin 1.9.0 Beta 版本终于发布，主要包括以下内容
+
+- 持续完善 Kotlin K2 编译器，添加了对 Kotlin/Native 后端的支持
+- 1.7.20 版本引入的`..<`操作符成为稳定 API
+- 提供了一个新的扩展函数`createParentDirectories`，可用于创建带有必要父目录的新文件，如果目录已存在，则不操作，否则创建目录
+- Kotlin 跨平台 Gradle 插件支持配置缓存
+- Google 的 Android 团队将提供自己的 Gradle 插件来支持 Kotlin Multiplatform 中的 Android Target
+- Kotlin/Native 在访问`object`单例的`const val`字段时将不再初始化`object`
+
+### Kotlin 协程 1.7.0 发布 
+[https://github.com/Kotlin/kotlinx.coroutines/releases](https://github.com/Kotlin/kotlinx.coroutines/releases)：在我看来，主要变动在于
+
+- 不再支持老版本的 Kotlin/Native 内存模型
+- Kotlin/Native 版协程终于添加了 Dispatchers.IO 支持
+
 ## 精选博客
 
 ## 社区活动
