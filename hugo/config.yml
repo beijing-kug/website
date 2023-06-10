@@ -112,7 +112,7 @@ menu:
       url: https://www.kotlincn.net/
       weight: 3
     - identifier: advanced
-      name: Kotlin News
+      name: 技术月报
       url: /news/
       weight: 4
 
