@@ -1,5 +1,5 @@
-# website
-北京 Kotlin User Group 站点
+# 北京 Kotlin User Group 站点
+[https://beijing-kug.github.io/](https://beijing-kug.github.io/)
 
 ## 贡献流程
 1. pull 或者 fork 最新代码
