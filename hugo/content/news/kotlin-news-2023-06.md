@@ -43,8 +43,12 @@ Monad 的概念看起来有些难以理解， 关于 Monad 到底是什么也可
 当然不同项目的测试结果可能不同，数据仅供参考。不过 Android 文档中的优化构建速度指南也推荐我们使用并发垃圾回收器，因此感兴趣的同学也可以尝试下，看看与本文的测试数据是否一致
 
 ### K2 编译器介绍
-Crash Course on the Kotlin Compiler | K1 + K2 Frontends, Backends
+[Crash Course on the Kotlin Compiler | K1 + K2 Frontends, Backends](https://medium.com/google-developer-experts/crash-course-on-the-kotlin-compiler-k1-k2-frontends-backends-fe2238790bd8)
 
+### 如何使用 Kotlin 技术栈构建一个播客网站
+https://www.slideshare.net/shengyou/how-i-make-a-podcast-website-using-serverless-technology-in-2023
+
+https://podcast.kotlin.tips/episodes/index.html
 
 ## 精选视频
 ### Compose 跨平台快速上手
