@@ -42,13 +42,25 @@ Monad 的概念看起来有些难以理解， 关于 Monad 到底是什么也可
 
 当然不同项目的测试结果可能不同，数据仅供参考。不过 Android 文档中的优化构建速度指南也推荐我们使用并发垃圾回收器，因此感兴趣的同学也可以尝试下，看看与本文的测试数据是否一致
 
-### K2 编译器介绍
+### Kotlin 编译器介绍
 [Crash Course on the Kotlin Compiler | K1 + K2 Frontends, Backends](https://medium.com/google-developer-experts/crash-course-on-the-kotlin-compiler-k1-k2-frontends-backends-fe2238790bd8)
+
+本文介绍了 Kotlin 编译的总体流程，包括 K1 和 K2 两个编译器前端的异同特点，以及编译器前端产物是如何通过 JVM、JS、Native 和 WASM 四个编译器后端，来生成相应的目标产物的。
+
+同时我们知道 K2 编译器前端比起 k1 编译器前端在性能上有了很大的提升，本文也介绍了 K1 编译器前端性能的主要问题在于非常糟糕的代码局部性和内存局部性。所有的`descriptors`都是惰性的，因此编译器总是在不同部分的代码之间跳转，从而破坏了 JIT 优化的数量。此外，解析的所有信息都存储在一个大的 Map（`BindingContext`）中，因此 CPU 不能充分缓存对象。
 
 ### 如何使用 Kotlin 技术栈构建一个播客网站
 https://www.slideshare.net/shengyou/how-i-make-a-podcast-website-using-serverless-technology-in-2023
 
 https://podcast.kotlin.tips/episodes/index.html
+
+### Kotlin 动态化方案
+https://code.cash.app/zipline
+
+Kotlin 动态化方案
+
+### 从Kotlin中return@forEach了个寂寞
+https://juejin.cn/post/7243819009866235964
 
 ## 精选视频
 ### Compose 跨平台快速上手
@@ -58,5 +70,8 @@ https://podcast.kotlin.tips/episodes/index.html
 [Kotlin goes WebAssembly!](https://www.youtube.com/watch?v=oIbX7nrSTPQ)：Kotlin 1.8.20 引入了新的编译后端：WebAssembly，Kotlin 代码通过编译成 WebAssembly ，可以运行在浏览器，Node.js 等环境中。本视频主要介绍了 Wasm 是什么，Kotlin Wasm 的现状与示例，以及其在未来的展望
 
 ![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/june/p1.png)
+
+### Compose 渲染机制的秘密
+[Compose 渲染机制的秘密](https://www.bilibili.com/video/BV1YN411k7Cp/)
 
 ## 社区活动
