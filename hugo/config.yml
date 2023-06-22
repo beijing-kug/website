@@ -56,6 +56,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/beijing-kug"
+    - name: Email
+      url: "mailto:ricardojiang1995@qq.com"
 
   ShowReadingTime: false
   ShowShareButtons: true
