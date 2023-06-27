@@ -50,9 +50,13 @@ Monad 的概念看起来有些难以理解， 关于 Monad 到底是什么也可
 同时我们知道 K2 编译器前端比起 k1 编译器前端在性能上有了很大的提升，本文也介绍了 K1 编译器前端性能的主要问题在于非常糟糕的代码局部性和内存局部性。所有的`descriptors`都是惰性的，因此编译器总是在不同部分的代码之间跳转，从而破坏了 JIT 优化的数量。此外，解析的所有信息都存储在一个大的 Map（`BindingContext`）中，因此 CPU 不能充分缓存对象。
 
 ### 如何使用 Kotlin 技术栈构建一个播客网站
-https://www.slideshare.net/shengyou/how-i-make-a-podcast-website-using-serverless-technology-in-2023
+《Kotlin 炉边漫谈》是一个讨论 Kotlin 相关资讯的中文播客，目前[《Kotlin 炉边漫谈官方网站》](https://podcast.kotlin.tips/episodes/index.html)已上线
 
-https://podcast.kotlin.tips/episodes/index.html
+该网站使用 Kotlin 技术栈构建，包括前端展示，后端云函数接口，数据爬虫获取与播放数据图表分析等功能。目前前端部分仍然是由 js 框架构建，后续在 Kotlin/WASM 成熟后或许可以弥补这一缺憾。同时后续也将推出 Kotlin 跨平台移动端 app，敬请期待。
+
+这个例子是 Kotlin 端到端解决方案的一个很好的示范，详情可见：[how I make a podcast website using serverless technology in 2023](https://www.slideshare.net/shengyou/how-i-make-a-podcast-website-using-serverless-technology-in-2023)
+
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/june/p4.jpg)
 
 ### Kotlin 动态化方案
 https://code.cash.app/zipline
