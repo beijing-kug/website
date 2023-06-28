@@ -49,8 +49,20 @@ Monad 的概念看起来有些难以理解， 关于 Monad 到底是什么也可
 
 同时我们知道 K2 编译器前端比起 k1 编译器前端在性能上有了很大的提升，本文也介绍了 K1 编译器前端性能的主要问题在于非常糟糕的代码局部性和内存局部性。所有的`descriptors`都是惰性的，因此编译器总是在不同部分的代码之间跳转，从而破坏了 JIT 优化的数量。此外，解析的所有信息都存储在一个大的 Map（`BindingContext`）中，因此 CPU 不能充分缓存对象。
 
+### [从Kotlin中return@forEach了个寂寞](https://juejin.cn/post/7243819009866235964)
+本文探讨了 Kotlin forEach 中一个容易出错的细节，在 Kotlin 语言中，`return@forEach` 的作用类似于 continue 而不是 break。文章解释了其背后的原理，并提供了一个相应的解决方案。
+
+```kotlin
+(1..7).forEach {
+    if (it == 3) {
+        return@forEach // 相当于 continue 而不是 break
+    }
+    Log.d("xys", "Num: $it")
+}
+```
+
 ### 如何使用 Kotlin 技术栈构建一个播客网站
-《Kotlin 炉边漫谈》是一个讨论 Kotlin 相关资讯的中文播客，目前[《Kotlin 炉边漫谈官方网站》](https://podcast.kotlin.tips/episodes/index.html)已上线
+《Kotlin 炉边漫谈》是一个讨论 Kotlin 相关资讯的中文播客，播客网站现已上线：[Kotlin 炉边漫谈官方网站](https://podcast.kotlin.tips/)
 
 该网站使用 Kotlin 技术栈构建，包括前端展示，后端云函数接口，数据爬虫获取与播放数据图表分析等功能。目前前端部分仍然是由 js 框架构建，后续在 Kotlin/WASM 成熟后或许可以弥补这一缺憾。同时后续也将推出 Kotlin 跨平台移动端 app，敬请期待。
 
@@ -62,9 +74,6 @@ Monad 的概念看起来有些难以理解， 关于 Monad 到底是什么也可
 https://code.cash.app/zipline
 
 Kotlin 动态化方案
-
-### 从Kotlin中return@forEach了个寂寞
-https://juejin.cn/post/7243819009866235964
 
 ## 精选视频
 ### Compose 跨平台快速上手
