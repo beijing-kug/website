@@ -70,10 +70,18 @@ Monad 的概念看起来有些难以理解， 关于 Monad 到底是什么也可
 
 ![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/june/p4.jpg)
 
-### Kotlin 动态化方案
-https://code.cash.app/zipline
+### Kotlin 动态化框架 Zipline
+[Dynamic Kotlin with Zipline](https://code.cash.app/zipline)
 
-Kotlin 动态化方案
+Zipline 是 Cash 公司开源的一款 Kotlin 动态化框架，借助这个框架，我们可以使用 Kotlin 编写功能和业务逻辑，并将它们动态推送给用户，免去了对应用发版的依赖。
+
+Zipline 基于 Kotlin 跨平台构建，目前 1.0 版本是通过 Kotlin/Js 后端将 Kotlin 代码编译成 Js 代码，Js 代码发送到端上后通过 QuickJs 引擎执行。需要注意的是，编译成 Js 代码仅是 Zipline 内部的一个实现细节，因此在后续的迭代中可以方便地替换，在 Zipline 2.0 中将会切换到 WebAssembly。
+
+Zipline 不仅可以动态更新业务逻辑，通过与 Compose 跨平台框架 Redwood 结合，也可以实现动态更新 UI，详情可见 Jake Wharton 大神在 KotlinConf 上的分享： [Playing in the Treehouse with Redwood and Zipline](https://kotlinconf.com/talks/466843/)
+
+Redwood + Zipline = Treehouse = "支持动态化的 Compose 跨平台方案"。这套方案解决了 Kotlin UI 跨平台及动态化两个关键问题，具有很大的想象空间和应用潜力。
+
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/july/p2.png)
 
 ## 精选视频
 ### Compose 跨平台快速上手
@@ -85,6 +93,6 @@ Kotlin 动态化方案
 ![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/june/p1.png)
 
 ### Compose 渲染机制的秘密
-[Compose 渲染机制的秘密](https://www.bilibili.com/video/BV1YN411k7Cp/)
+[Compose 渲染机制的秘密](https://www.bilibili.com/video/BV1YN411k7Cp/)：这是由上海 Kotlin 用户组组织者带来的一场精彩分享。在本视频中，您将了解到 Jetpack Compose 是如何在屏幕上绘制的，同时还会介绍 Skia 引擎与 OpenGL ES、Vulkan 等图形 API 之间的关系以及 Compose-Multiplatform 在各个平台上的渲染方式。
 
-## 社区活动
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/july/p1.png)
