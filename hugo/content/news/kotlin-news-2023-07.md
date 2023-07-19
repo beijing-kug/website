@@ -10,7 +10,7 @@ tags: [技术月报]
 
 ## 最新动态
 ### Kotlin 1.9.0 版本发布
-[What's new in Kotlin 1.9.0](https://kotlinlang.org/docs/whatsnew19.html)：Kotlin 1.9.0 版本已发布，其中最大的变化应该是 K2 编译器终于支持了 KAPT 编译器插件，主要包括以下内容：
+[Kotlin 1.9.0 现已发布 | 官方博客](https://mp.weixin.qq.com/s/3CwZpsTG9dNkx0e1akMU5w)：Kotlin 1.9.0 版本已发布，其中最大的变化应该是 K2 编译器终于支持了 KAPT 编译器插件，主要包括以下内容：
 
 - 持续完善 Kotlin K2 编译器，包括对 KAPT 的支持，Gradle 构建报告更好的支持等
 - 一些语言特性：在枚举类中推荐使用`entries`属性代替`values()`方法进行遍历，data object 现已稳定，Value Class 支持次级构造函数
@@ -22,6 +22,8 @@ tags: [技术月报]
 - Kotlin/Native 在访问 object 单例的 const val 字段时将不再初始化 object
 - Kotlin/Native在链接过程中遇到无符号问题时，默认处理方式已更改为警告而非报错，这样更接近于Kotlin/JVM的处理方式，即在运行时报错
 - Kotlin/Wasm 在包体积方面做了巨大的优化，以一个 HelloWorld 项目为例，1.9.0 版本相较于 1.8.20 版本，其体积缩小了10倍。
+
+也可以查看视频版本的介绍：[Kotlin 1.9 更新了什么？](https://www.bilibili.com/video/BV1DP411k7xs/)
 
 ### Kotlin Notebook IDEA 插件已发布
 [Introducing Kotlin Notebook](https://blog.jetbrains.com/kotlin/2023/07/introducing-kotlin-notebook/)
@@ -69,6 +71,12 @@ fun main(args: Array<String>) {
 ```
 
 总的来说，Gson 与 Kotlin 的适配并不是很好，因此如果使用 Kotlin 的话，还是更推荐迁移到 Moshi 或者 kotlin-serialization。
+
+### [Compose 为什么可以跨平台？](https://mp.weixin.qq.com/s/V682vYRzXr0p7gyfeHTmHg)
+
+### Compose 组件官方指南
+https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-component-api-guidelines.md
+
 ## 精选视频
 ### 为什么 Kotlin 排名比 Swift 落后？
 [它居然说 Java 不行了？！！](https://www.bilibili.com/video/BV1Vg4y1P7dr/)
