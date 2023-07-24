@@ -45,11 +45,9 @@ params:
     imageWidth: 360 # custom size
     imageHeight: 360 # custom size
 
-    # TODO 竞赛、文章
-    # 后端转Android
     buttons:
-      - name: 分享会
-        url: /events/
+      - name: 加入 KUG
+        url: https://mp.weixin.qq.com/s/rZEuSU2Nj3S9XGzpkFr-Jw
       - name: 技术月报
         url: /news/
 
@@ -105,9 +103,9 @@ menu:
       name: 分享会
       url: /events/
       weight: 1
-    - identifier: official
-      name: Kotlin 官方
-      url: https://kotlinlang.org/
+    - identifier: kug
+      name: 加入 KUG
+      url: https://mp.weixin.qq.com/s/rZEuSU2Nj3S9XGzpkFr-Jw
       weight: 2
     - identifier: kotlin docs
       name: 中文文档
