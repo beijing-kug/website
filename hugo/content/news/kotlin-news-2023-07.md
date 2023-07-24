@@ -73,9 +73,41 @@ fun main(args: Array<String>) {
 总的来说，Gson 与 Kotlin 的适配并不是很好，因此如果使用 Kotlin 的话，还是更推荐迁移到 Moshi 或者 kotlin-serialization。
 
 ### [Compose 为什么可以跨平台？](https://mp.weixin.qq.com/s/V682vYRzXr0p7gyfeHTmHg)
+本文是 2022 Kotlin 中文开发者大会相关分享的文字版，深入介绍了 Compose 支持跨平台的底层原理
 
-### Compose 组件官方指南
-https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-component-api-guidelines.md
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/july/p20.png)
+
+我们知道，Compose 框架具有良好的分层结构，其中 Compose Compiler 层与 Compose Runtime 层负责驱动一棵节点树的更新，这部分与平台无关，节点树也可以是任意类型的节点树甚至是一棵渲染无关的树。
+
+而不同平台的渲染机制不同，所以 Compose UI 与平台相关，因此 Compose 要实现跨平台要解决的唯一问题就是 Compose UI 层的跨平台
+
+Compose 跨平台技术发展十分迅速，截止目前已经出现了两种实现 Compose UI 层跨平台的方案，令人充满期待
+
+- [compose-multiplatform](https://github.com/JetBrains/compose-multiplatform)：Jetbrains 目前正在开发的 Compose 跨平台框架，类似于 flutter，通过封装 skia 引擎，解决 Compose UI 层的跨平台问题
+- [redwood](https://github.com/cashapp/redwood)：Cash 公司开源的类 React Native 方案，通过组件映射的方式实现 UI 层的跨平台，同时也支持动态化更新组件
+
+### Compose 组件的 API 官方指南
+[API Guidelines for @Composable components in Jetpack Compose](https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-component-api-guidelines.md)
+
+最近官方更新了 Compose 组件 API 指南，这些指南介绍了使用 Jetpack Compose 开发 UI 组件的最佳实践，遵循这些指南可以给我们带来以下收益
+
+- 长期可扩展：遵循最佳实践的组件 API 可以降低变更成本，减少变更对使用者的影响
+- 与其他组件保持一致：不同的组件都遵循相同的指南，使用者可以使用现有的知识和模式来处理由不同作者创建的新组件，降低接入新组件的成本
+- 减少错误：封装良好的组件会鼓励使用者写出符合最佳实践的代码，并在可能的情况下禁止错误的用法。
+
+### [匿名内部类/Lambda Java和Kotlin谁会导致内存泄漏?](https://juejin.cn/post/7256738063072854072)
+本文从字节码的角度分析了为什么 Java 匿名内部类会导致内存泄漏，同时分析比较了 Java 的 Lambda 表达式，Kotlin 匿名内部类，Lambda 表达式和高阶函数，以评估它们是否会引发类似的内存泄漏问题
+
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/july/p21.webp)
+
+### [Jetpack Compose也能搞插件化了](https://mp.weixin.qq.com/s/kBvSptkgvnWoQ9_S0_pQGg)
+在传统的 View 体系中，插件化框架的其实很大一部分工作就是处理未注册 Activity 的问题。在进入 Jetpack Compose 的世界以后，Activity 的角色被淡化了，由于一个 Composable 组件就可以承担一个屏幕级的显示，因此我们的应用中不再需要那么多的 Activity 类，只要你喜欢，你甚至可以打造一个单 Activity 的纯 Compose 应用。
+
+因此 Compose 实际上降低了插件化的成本，本文主要探索了几种可以在 Jetpack Compose 中实施插件化/动态加载的可行性方案
+
+- Activity 占坑方式访问插件中的 Composable 组件(传递不同参数，展示不同的 Composable)
+- 直接加载插件中的 Composable 组件(返回 Compose 组件)
+- 套娃模式加载 Composable 组件(返回 ComposeView)
 
 ## 精选视频
 ### 为什么 Kotlin 排名比 Swift 落后？
@@ -87,8 +119,10 @@ https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-com
 
 ![](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/july/p3.png)
 
-### Sentry 如何使用 Kotlin Multiplatform 开发 SDK
-[Creating Kotlin Multiplatform SDK at Sentry-monitoring](https://www.youtube.com/watch?v=XY4h3pfwaE0)
+### Kotlin 跨平台从入门到实战
+[Kotlin Multiplatform from "hello world" to the real world](https://www.droidcon.com/2023/07/20/kotlin-multiplatform-from-hello-world-to-the-real-world/)
+
+Kotlin 跨平台目前已经进入 beta 阶段。到现在，您肯定已经听说过 Kotlin 多平台技术，并可能尝试在 demo 中体验过它。但当您真正尝试将 Kotlin 跨平台技术应用于实际项目时，您可能会遇到一些微妙且复杂的问题，比如 Kotlin 与 Swift 的互操作性、模块化、管理具有相互依赖关系的多个代码库，以及优化构建时间和二进制文件大小等。本视频的分享者来自 touchlab，介绍了他们在这些方面的一些实践经验。
 
 ## 社区活动
 ### 深圳、武汉、贵州 KUG 联合线上分享会
@@ -96,6 +130,12 @@ https://github.com/androidx/androidx/blob/androidx-main/compose/docs/compose-com
 
 深圳、武汉、贵州 KUG 组织的联合线上分享会，主要包括以下内容
 
-- 《JWT 与 Ktor 的故事》分享
-- 《Compose-Fluent-UI》分享
-- 《Compose 状态管理与 Compose 快照》分享
+- [《JWT 与 Ktor 的故事》分享](https://www.bilibili.com/video/BV1aX4y1n75r?p=3)
+- [《Compose-Fluent-UI》分享](https://www.bilibili.com/video/BV1aX4y1n75r?p=2)
+- [《Compose 状态管理与 Compose 快照》分享](https://www.bilibili.com/video/BV1aX4y1n75r?p=4)
+
+### 加入 Kotlin 用户组
+KUG 是让 Kotlin 开发者和爱好者们聚在一起的技术社区。通过基于群聊的日常交流或不定期在线上/线下举办的技术讲座和沙龙，促进大家的知识分享和技能提升。
+
+截至目前，国内已有 16 个 KUG 成立，各个 KUG 的信息和加入方式可见链接：[找到组织！国内 Kotlin User Group 信息整理（23年7月）](https://mp.weixin.qq.com/s/rZEuSU2Nj3S9XGzpkFr-Jw)
+
