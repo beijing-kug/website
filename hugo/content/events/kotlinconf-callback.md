@@ -34,27 +34,27 @@ Jetbrains Compose 为什么可以跨平台？这离不开 Kotlin Multiplatform �
 {{< bilibili BV1Xs4y1u7jG >}}  
 
 ## 精彩瞬间
-![p5.jpeg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8aeb542ddb71470ea3b08e722bb16f62~tplv-k3u1fbpfcp-watermark.image?)
+![p5.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p5.jpg)
 
-![p6.jpeg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/2cbc889010ca402cbd2bd6d7098aefed~tplv-k3u1fbpfcp-watermark.image?)
+![p6.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p6.jpg)
 
-![p7.jpeg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9f7e8246647a4be6adf56c9db3f2330b~tplv-k3u1fbpfcp-watermark.image?)
+![p7.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p7.jpg)
 
-![p8.jpeg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3cd4d115aa4c45b5882b81557f40f2de~tplv-k3u1fbpfcp-watermark.image?)
+![p8.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p8.jpg)
 
-![p9.jpeg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/eb41da5dcf5841718ada27c053f1fb87~tplv-k3u1fbpfcp-watermark.image?)
+![p9.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p9.jpg)
 
-![p10.jpeg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/cda78d59d3b04f17b1b8ba8c6941e7c1~tplv-k3u1fbpfcp-watermark.image?)
+![p10.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p10.jpg)
 
-![p11.jpeg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/6e15221d579443d28633b65da85c18bb~tplv-k3u1fbpfcp-watermark.image?)
+![p11.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p11.jpg)
 
-![p12.jpeg](https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/8a45d6d53892403f9a72d4b2eb35a788~tplv-k3u1fbpfcp-watermark.image?)
+![p12.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p12.jpg)
 
-![p13.jpeg](https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bdfeb03b0ec849a0bf34367b18626f55~tplv-k3u1fbpfcp-watermark.image?)
+![p13.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p13.jpg)
 
-![p14.jpeg](https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/239574e3682f4a258a32c9bde4fcb12b~tplv-k3u1fbpfcp-watermark.image?)
+![p14.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p14.jpg)
 
-![p15.jpeg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/89d2611def62411b9c560bff8979f2b2~tplv-k3u1fbpfcp-watermark.image?)
+![p15.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p15.jpg)
 
-![p16.jpeg](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/9d043d385a654fa8b7172cd5acd7358a~tplv-k3u1fbpfcp-watermark.image?)
+![p16.jpeg](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p16.jpg)
 
