@@ -11,7 +11,7 @@ tags: [分享会]
 大家可以在现场与各位 Kotlin 技术爱好者一起交流讨论，线下面基，点击[报名链接](https://shimo.im/forms/m5kv9ag7QJuPr1qX/fill)或者扫描文末二维码即可报名
 
 ## 活动简介
-![KotlinConf](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/123ce93b493b4a85bc16b62c2f9d65d7~tplv-k3u1fbpfcp-watermark.image?)
+![KotlinConf](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p1.jpg)
 
 经过三年的疫情最困难时期，JetBrains 官方举办的 KotlinConf 大会于今年 4 月中旬在荷兰阿姆斯特丹再次回归。此次大会上，Kotlin 团队的开发人员介绍了 Kotlin 的未来发展方向和重要更新，同时来自世界各地的开发人员也分享了 Kotlin 在各个领域的先进实践经验。
 
@@ -46,7 +46,7 @@ tags: [分享会]
 
 扫码报名：
 
-![报名表](https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/e638b0991a4341739973727bad4ebc44~tplv-k3u1fbpfcp-watermark.image?)
+![报名表](https://raw.gitmirror.com/RicardoJiang/resource/main/2023/november/p2.jpg)
 
 ## 组织者联系方式
 如果您决定报名参加活动，请添加组织者的微信号，以便在活动当日前往正确的地点。如果您有任何疑问或需要帮助，请随时联系组织者：
