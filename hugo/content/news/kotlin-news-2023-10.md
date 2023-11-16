@@ -48,7 +48,6 @@ Touchlab 是一个致力于推广 KMP 的团队，在过去几周 TouchLab 的�
 
 - KAE 插件正式废弃，迁移到 ViewBinding
 - KAPT 默认启用 JVM IR，当前需要关闭
-- 外部枚举类external enum已弃用，新业务请使用外部密封类 external sealed
 
 ### [今日好奇：ChatGPT的Android端是用什么写的？](https://juejin.cn/post/7286632584149581885)
 ChatGPT 自发布以来一直非常火爆，并已发布了 Android 版本，本文通过 LibChecker 等工具分析对比了 ChatGPT 与 文心一言 Android 版本的技术栈。
