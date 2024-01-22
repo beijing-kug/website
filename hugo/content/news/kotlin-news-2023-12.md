@@ -85,7 +85,7 @@ Kotlin 中文开发者大会是由 JetBrains 团队与中文 Kotlin User Group �
 
 今年 Kotlin 中文大会已于 12 月 16 日（六）及 12 月 17 日（日）两天进行线上直播，本次邀请到 16 位来自各公司的 Kotlin 技术专家，带来 Kotlin Multiplatform 的第一手案例实践、Kotlin 编译器核心讲解、使用 KSP 辅助开发、Kotlin 在后端的应用等话题。
 
-如有需要查看直播回放及讲师 PPT 也可见：[https://blog.jetbrains.com/kotlin/2023/12/2023-kotlin-chinese-conference/](https://blog.jetbrains.com/kotlin/2023/12/2023-kotlin-chinese-conference/)
+如有需要查看直播回放及讲师 PPT 也可见：[https://blog.jetbrains.com/kotlin/2023/12/2023-kotlin-chinese-conference/](https://blog.jetbrains.com/kotlin/2023/11/2023-kotlin-chinese-conference/)
 
 ### 社区说 Kotlin 分享
 [社区说｜引领高效编程风向 Kotlin 前沿技术开发深度剖析](https://mp.weixin.qq.com/s/J6AgZU0vldI4y_6XuZrexg)

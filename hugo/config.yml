@@ -47,7 +47,7 @@ params:
 
     buttons:
       - name: 加入 KUG
-        url: https://mp.weixin.qq.com/s/rZEuSU2Nj3S9XGzpkFr-Jw
+        url: https://mp.weixin.qq.com/s/GNlbZ6xpCGB1EGML_W4kOg
       - name: 技术月报
         url: /news/
 
@@ -105,7 +105,7 @@ menu:
       weight: 1
     - identifier: kug
       name: 加入 KUG
-      url: https://mp.weixin.qq.com/s/rZEuSU2Nj3S9XGzpkFr-Jw
+      url: https://mp.weixin.qq.com/s/GNlbZ6xpCGB1EGML_W4kOg
       weight: 2
     - identifier: kotlin docs
       name: 中文文档
