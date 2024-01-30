@@ -91,8 +91,7 @@ Kotlin 中文开发者大会是由 JetBrains 团队与中文 Kotlin User Group �
 您可以随时观看并与可能感兴趣的任何人分享，并在视频页面的评论区向我们提供反馈。
 
 ### 在 Meta 写 Kotlin 编译器插件是怎样一种体验?
-[Podcast |《Kotlin 炉边漫谈》第 15 期：和在 Meta 写 Kotlin 编译器插件的小姐姐，来一场坦白局！
-](https://www.bilibili.com/video/BV1YN4y1s7g5/)
+[Podcast |《Kotlin 炉边漫谈》第 15 期：和在 Meta 写 Kotlin 编译器插件的小姐姐，来一场坦白局！](https://www.bilibili.com/video/BV1YN4y1s7g5/)
 
 大家熟悉的 Kotlin 开发大多都是拿来写 Server-Side、双平台 Mobile，你有想过有开发者是拿 Kotlin 写构建工具吗？本期节目特别邀请到人在 Meta 伦敦办公室的惠勤，请她跟我们聊聊在 Meta 的工作经验，是什么机会让她从 iOS 开发者变成 Kotlin 开发者，还从零变成编译器专家的故事。
 
