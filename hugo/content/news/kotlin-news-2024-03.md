@@ -53,6 +53,8 @@ Compose 的推出已经有一段时间了，那么在 2023 年 Compose 的使用
 ![](https://raw.gitmirror.com/RicardoJiang/resource/main/2024/march/p7.png)
 
 ### 如何测量与分析 Kotlin/JS 包体积
+[Measuring and analyzing the KotlinJS bundle size](https://touchlab.co/measuring-kotlin-js-bundle)
+
 Kotlin/JS 的原理是将 Kotlin 代码编译成 JavaScript，而要将 Kotlin/JS 用于生产环境，合适的包体积大小至关重要。较小的 JavaScript 包体积有助于提升网站的加载速度和性能。本文介绍了两种如何测量您的 Kotlin/JS 包体积大小并可视化库和类的影响。
 
 ![](https://raw.gitmirror.com/RicardoJiang/resource/main/2024/march/p8.png)
