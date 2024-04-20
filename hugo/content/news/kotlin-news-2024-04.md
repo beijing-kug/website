@@ -35,6 +35,16 @@ JetBrains IDE v2024.1 版本中推出了一项新功能：全行代码补全。�
 Kotlin 2.0.0-RC1 版本已经发布！RC 表示该版本是预发布版本，意味着该版本已经接近稳定版，但可能还存在一些小问题需要修复。
 
 这个版本主要集中在稳定新的 Kotlin K2 编译器，自 1.9.20 版本后，其所有目标都已达到 Beta 状态，并将在 Kotlin 2.0 版本中最终稳定。此外，Kotlin/Wasm 和 Kotlin/JS 中也有新的特性，同时优化了 Gradle 构建工具。
+
+### 适合所有水平的学习者的 Kotlin 学习指南
+[A Comprehensive Kotlin Learning Guide for All Levels](https://blog.jetbrains.com/education/2024/04/04/kotlin-learning-guide/)
+
+任何领域的新手通常都会遇到一个基本问题：他们不知道自己不知道什么。本文旨在帮助自学的 Kotlin 学习者更好地了解学习路线，让他们可以从第一个 main 函数到轻松处理协程。
+
+这个指南适用于任何对 Kotlin 语言感兴趣的人，无论你有多少经验，无论你是刚开始学习第一门语言的新手，还是希望找到编程工作的人，或者是在特定领域希望加深知识的经验丰富的开发者，本文都希望对你有所帮助。
+
+![](https://raw.gitmirror.com/RicardoJiang/resource/main/2024/april/p9.png)
+
 ## 精选博客
 ### [使用KMP & Compose开发鸿蒙应用](https://mp.weixin.qq.com/s/QQ2tiAlInT5YRjracJ0OWg)
 HarmonyOS NEXT 不再支持 AOSP，仅支持鸿蒙内核和鸿蒙系统的应用，各大 App 也纷纷投入到了原生鸿蒙应用的开发中。开发者需要考虑的平台已经从原来的双端演变为三端。这无疑将增加研发的复杂性和成本，由此可以预见的是未来对于跨端代码复用的诉求将越发强烈。
@@ -51,3 +61,9 @@ HarmonyOS NEXT 不再支持 AOSP，仅支持鸿蒙内核和鸿蒙系统的应用
 ## 精选视频
 
 ## 社区活动
+### QCon 分享：Kotlin/WebAssembly 的探索之路
+Kotlin 作为多平台开发的热门语言，除了拥有良好的生态、成熟的开发工具外，也不断探索更多运行平台的可能。Kotlin/Wasm 项目将 Kotlin 语言与 WebAssembly 技术相结合，让开发者能够开发安全、高效、可移植的 WebAssembly 应用。随着 WebAssembly 的未来发展，Kotlin/Wasm 还能将程序运行在浏览器之外，在更多应用场景下落地。
+
+本演讲将介绍 Kotlin/Wasm 项目的最新进展，包括如何在现有项目内加入 Kotlin/Wasm 支持、开发工具链及并实际演示以 Kotlin/Wasm 运行 Compose UI 代码，展示 Kotlin 多平台开发的魅力。
+
+分享 PPT 在线链接可见：[Kotlin+WebAssembly+的探索之路-范圣佑](https://static001.geekbang.org/con/143/pdf/1791864063/file/Kotlin+WebAssembly+%E7%9A%84%E6%8E%A2%E7%B4%A2%E4%B9%8B%E8%B7%AF-%E8%8C%83%E5%9C%A3%E4%BD%91.pdf)
