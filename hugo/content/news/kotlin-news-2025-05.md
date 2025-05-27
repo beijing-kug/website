@@ -8,6 +8,7 @@ tags: [技术月报]
 
 月报的主要内容包括：整理展示最近一个月的最新技术动态，精选博客，精选视频以及社区活动等方面的信息。
 
+微信内限制外链点击，大家可以点击左下角阅读原文，支持外链查看。
 ## 最新动态
 ### Compose Multiplatform 1.8.0 发布
 [Compose Multiplatform 1.8.0 发布：Compose Multiplatform for iOS 已经稳定并且可以投入生产环境](https://blog.jetbrains.com/zh-hans/kotlin/2025/05/compose-multiplatform-1-8-0-compose-multiplatform-for-ios/)
@@ -157,3 +158,5 @@ KotlinConf 2025 主题演讲，回顾 Kotlin 发展历程与现状，具体包�
  - **官方Kotlin LSP开发**：官方开发 Kotlin 语言服务器协议及 VS Code 新扩展，早期已支持代码补全、导航等基础功能，计划今年晚些时候发布 Alpha 版本。 
 
 ![](https://hub.gitmirror.com/raw.githubusercontent.com/RicardoJiang/resource/refs/heads/main/2025/may/p5.png)
+
+微信内限制外链点击，大家可以点击左下角阅读原文，支持外链查看。
