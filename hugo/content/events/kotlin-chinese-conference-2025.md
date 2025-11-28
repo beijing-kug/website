@@ -63,7 +63,7 @@ Kotlin 中文开发者大会是由 JetBrains 联合 KUG 举办的一年一度的
 ### 活动群
 我们还创建了一个活动交流群，以便大家进行交流和讨论，并发布活动相关信息。如果您有关于 Kotlin 的问题，欢迎在群里提出，我们将为您解答。
 
-微信群二维码：待更新
+![](https://raw.githubusercontent.com/RicardoJiang/resource/refs/heads/main/2025/november/p9.jpg)
 
 ## 线上观看
 如果您无法到场，也可以直接参加线上大会：
